@@ -17,7 +17,7 @@ public class HelloController {
         if (name.equals("admin")) {
             return "redirect:/success";
         } else {
-            model.addAttribute("error", "Invalid User");
+            model.addAttribute("error", "this is an invalid user");
             return "home";
         }
     }
